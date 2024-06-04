@@ -35,7 +35,7 @@ void test3(int n)
 {
    int i, j, a = 0; O(1)
    for (i = n/2; i <=n; i++) O(n)
-      for (j = 2; j <=n; j=j*2) O(logn)           ===========> O(nlogn)
+      for (j = 2; j <=n; j=j*2) O(logn)           ===========> O(logn)
           a=a+n/2;   
 }
 
